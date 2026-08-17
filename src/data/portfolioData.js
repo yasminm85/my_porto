@@ -139,7 +139,7 @@ export const experienceData = [
         "Engineered IADFiles, a specialized file management system for the Internal Audit Division to eliminate data silos and reduce file retrieval time by implementing structured folder classification and multi-year filtering.",
     ],
     skills: ['React', 'Node.js', 'MongoDB'],
-    highlight: 'Spearheaded the redesign of flagship digital experience receiving FWA of the Day.'
+    highlight: 'Integrated an automated alarm and TV-display schedule system that effectively eliminated missed deadlines caused by notification fatigue.'
   },
   {
     id: 'exp-2',
@@ -154,7 +154,7 @@ export const experienceData = [
         "Migrated the Warehouse Management System application from PHP to Laravel for 22 sub-systems",
     ],
     skills: ['Laravel', 'PHP', 'Ajax', 'MySQL'],
-    highlight: 'Scaled websocket concurrent session handling from 2k to 50k users.'
+    highlight: 'Successfully migrated 22 Warehouse Management System sub-systems from PHP to Laravel.'
   },
   {
     id: 'exp-3',
@@ -169,7 +169,7 @@ export const experienceData = [
         "Added new users from new employee data to the HCIS website and attendance website and can complete up to 104 data."
     ],
     skills: ['Excel', 'Word'],
-    highlight: 'Shipped 18 client web apps on schedule with 100% client satisfaction score.'
+    highlight: 'Streamlined company-wide employee database preparation.'
   }
 ];
 

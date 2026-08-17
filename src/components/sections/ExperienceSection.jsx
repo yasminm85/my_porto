@@ -21,7 +21,6 @@ export const ExperienceSection = () => {
             key={item.id}
             className="bg-[#1f242d] border-2 border-black p-4 sm:p-5 rounded-none retro-shadow relative overflow-hidden"
           >
-            {/* Top Row: Role & Company */}
             <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-gray-700 pb-3 mb-3">
               <div>
                 <h4 className="font-bubble text-base sm:text-lg font-bold text-white flex items-center gap-2">
@@ -47,7 +46,6 @@ export const ExperienceSection = () => {
               </div>
             </div>
 
-            {/* Role highlights & contributions */}
             <div className="space-y-2 mb-4">
               {item.description.map((desc, idx) => (
                 <div key={idx} className="flex items-start gap-2 text-xs sm:text-sm text-gray-300">
@@ -57,7 +55,6 @@ export const ExperienceSection = () => {
               ))}
             </div>
 
-            {/* Key Milestone Highlight Banner if present */}
             {item.highlight && (
               <div className="mb-4 bg-[#141b24] p-2.5 border-l-4 border-yellow-400 flex items-center gap-2 text-xs font-mono text-yellow-300">
                 <Award className="w-4 h-4 text-yellow-400 shrink-0" />
@@ -65,7 +62,6 @@ export const ExperienceSection = () => {
               </div>
             )}
 
-            {/* Skills & Technologies Pills */}
             <div className="pt-2 border-t border-gray-800 flex items-center flex-wrap gap-1.5">
               <span className="text-[11px] font-pixel text-gray-400 mr-1">STACK:</span>
               {item.skills.map((skill) => (
